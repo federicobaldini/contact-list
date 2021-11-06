@@ -3,12 +3,16 @@
   let age = 24;
 
   /*
-    whenever the name value change, this marker
+    whenever the name value change, this marker/label ('$:')
     tells Svelte to follow the change and put into uppercaseName
 
     let uppercaseName; is not required!
   */
   $: uppercaseName = name.toUpperCase();
+
+  $: if (name === 'Federico') {
+    age = 20;
+  }
 
   const incrementAge = () => {
     age += 1;
@@ -16,6 +20,11 @@
 
   const changeName = () => {
     name = 'Federico'
+  };
+
+  const changeNameHandler = (event) => {
+    const enteredName = event.target.value;
+    name = enteredName;
   };
 </script>
 
@@ -27,4 +36,5 @@
 
 <h1>Hello {uppercaseName}, my age is {age}!</h1>
 <button on:click="{incrementAge}">Change Age</button>
-<button on:click="{changeName}">Change Name</button>
+<!-- <button on:click="{changeName}">Change Name</button> -->
+<input type="text" value="{name}" on:input="{changeNameHandler}">
