@@ -39,4 +39,4 @@
   do not abuse about this two-way data binding syntax
 -->
 <input type="text" bind:value="{name}">
-<ContactCard />
+<ContactCard userName="{name}" />
