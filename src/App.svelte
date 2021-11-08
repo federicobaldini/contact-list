@@ -1,4 +1,6 @@
 <script>
+  import ContactCard from "./ContactCard.svelte";
+
 	let name = 'Fede';
   let age = 24;
 
@@ -37,3 +39,4 @@
   do not abuse about this two-way data binding syntax
 -->
 <input type="text" bind:value="{name}">
+<ContactCard />
