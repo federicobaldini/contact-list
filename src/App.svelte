@@ -1,7 +1,11 @@
 <script>
   import ContactCard from "./ContactCard.svelte";
 
-	let name = 'Fede';
+	let name = "";
+  let title = "";
+  let image = "";
+  let description = "";
+
   let age = 24;
 
   /*
@@ -33,10 +37,18 @@
 </style>
 
 <h1>Hello {uppercaseName}, my age is {age}!</h1>
-<button on:click="{incrementAge}">Change Age</button>
+<button on:click={incrementAge}>Change Age</button>
 <!-- <input type="text" value="{name}" on:input="{changeNameHandler}"> -->
 <!-- 
   do not abuse about this two-way data binding syntax
 -->
-<input type="text" bind:value="{name}">
-<ContactCard userName="{name}" />
+<input type="text" bind:value={name} />
+<input type="text" bind:value={title} />
+<input type="text" bind:value={image} />
+<textarea rows="3" bind:value={description} />
+<ContactCard 
+  userName={name}
+  jobTitle={title}
+  userImage={image}
+  {description}
+/>
