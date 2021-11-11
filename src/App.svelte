@@ -1,7 +1,7 @@
 <script>
   import ContactCard from "./ContactCard.svelte";
 
-  let name = "Fede";
+  let name = "Max";
   let title = "";
   let image = "";
   let description = "";
