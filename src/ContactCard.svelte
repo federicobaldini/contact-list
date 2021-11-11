@@ -1,8 +1,8 @@
 <script>
   export let userName;
   export let jobTitle;
-  export let userImage;
   export let description;
+  export let userImage;
 </script>
 
 <style>
@@ -11,6 +11,7 @@
     max-width: 30rem;
     border-radius: 5px;
     margin: 1rem 0;
+    background: white;
   }
 
   header {
