@@ -6,6 +6,7 @@
   let image = "";
   let description = "";
   let formState = "empty";
+  
 
   const addContact = () => {
     if (
