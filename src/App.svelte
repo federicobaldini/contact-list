@@ -68,8 +68,8 @@
 </div>
 
 <button on:click={addContact}>Add Contact Card</button>
-<button>Delete First</button>
-<button>Delete Last</button>
+<button on:click={deleteFirst}>Delete First</button>
+<button on:click={deleteLast}>Delete Last</button>
 
 {#if formState === "invalid"}
   <p>Invalid input.</p>
