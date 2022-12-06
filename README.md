@@ -3,7 +3,7 @@ A web application that allows to create a contact list, using Svelte.
 Credit: https://github.com/mschwarzmueller and https://www.udemy.com/course/sveltejs-the-complete-guide
 
 <p align="center">
-  <img src="https://github.com/federicobaldini/expense-tracker/blob/master/application.png" alt="login" />
+  <img src="https://github.com/federicobaldini/contact-list/blob/master/application.png" alt="application" />
 </p>
 
 
