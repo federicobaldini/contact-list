@@ -25,7 +25,7 @@ npm run dev
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
-## Building and running in production mode
+## Building
 
 To create an optimised version of the app:
 
@@ -33,4 +33,8 @@ To create an optimised version of the app:
 npm run build
 ```
 
-You can run the newly built app with `npm run start`.
+Builds the app for production to the `public/build` folder.<br />
+It correctly bundles the application in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
