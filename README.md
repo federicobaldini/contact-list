@@ -17,7 +17,7 @@ Install the dependencies:
 npm install
 ```
 
-then start the application with [Rollup](https://rollupjs.org):
+then start the development server:
 
 ```
 npm run dev
