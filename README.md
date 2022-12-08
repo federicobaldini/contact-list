@@ -1,3 +1,5 @@
+# contact-list
+
 A web application that allows to create a contact list, using Svelte.
 
 Credit: https://github.com/mschwarzmueller and https://www.udemy.com/course/sveltejs-the-complete-guide
