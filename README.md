@@ -11,13 +11,13 @@ Credit: https://github.com/mschwarzmueller and https://www.udemy.com/course/svel
 
 ## Available Scripts
 
-Install the dependencies...
+Install the dependencies:
 
 ```
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+then start the application with [Rollup](https://rollupjs.org):
 
 ```
 npm run dev
